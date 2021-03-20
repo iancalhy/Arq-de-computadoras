@@ -1,0 +1,25 @@
+fibo, load result 
+output
+
+load fib
+add fib1
+store result 
+
+load fib1
+store fib
+
+load result
+store fib1
+
+load num 
+subt one
+store num
+Skipcond 400
+jump fibo
+Halt
+
+fib, DEC 0
+fib1, DEC 1
+one, DEC 1
+num, DEC 18
+result, DEC 1
